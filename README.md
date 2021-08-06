@@ -5,5 +5,6 @@ This is a simple little image that adds a few useful binaries to Alpine.  The ta
 ## Installed via APK
 
 - bash
+- coreutils
 - curl
 - wget
