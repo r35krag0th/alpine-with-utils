@@ -1,10 +1,13 @@
-FROM alpine:3.8
+ARG  ALPINE_VERSION
+
+FROM alpine:${ALPINE_VERSION}
 
 # bash      - to allow for http-based bash one-liners
 # coreutils - to allow for non-busybox version of a lot of useful utils (like sort)
 # curl      - to allow for http-based bash one-liners
 # wget      - to allow for http-based bash one-liners
-RUN apk add --update \
+RUN echo -e "\033[33m***\033[0m Installing Packages for Alpine Linux $(cat /etc/alpine-release)" && \
+      apk add --update \
             bash \
             coreutils \
             curl \
