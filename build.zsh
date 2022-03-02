@@ -18,3 +18,8 @@ do_build 3.11
 do_build 3.12
 do_build 3.13
 do_build 3.14
+do_build 3.14.0
+do_build 3.14.1
+do_build 3.14.2
+do_build 3.14.3
+do_build 3.15.0
