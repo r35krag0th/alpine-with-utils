@@ -8,11 +8,15 @@ do_push() {
 }
 
 
-do_push 3.8
-do_push 3.9
-do_push 3.10
-do_push 3.11
-do_push 3.12
-do_push 3.13
-do_push 3.14
-
+do_push "3.8"
+do_push "3.9"
+do_push "3.10"
+do_push "3.11"
+do_push "3.12"
+do_push "3.13"
+do_push "3.14"
+do_push "3.15"
+do_push "3.16"
+do_push "3.17"
+do_push "3.18"
+do_push "3.19"
