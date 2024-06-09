@@ -45,5 +45,5 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ghcr.io/r35krag0th/${{ github.repository }}:${{ matrix.alpine_version }}
+          tags: ghcr.io/${{ github.repository }}:${{ matrix.alpine_version }}
           build-args: ALPINE_VERSION=${{ matrix.alpine_version }}
