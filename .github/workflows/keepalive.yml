@@ -4,6 +4,7 @@ on:
     - cron: "0 0 * * *"
 permissions:
   actions: write
+  contents: read
 jobs:
   keepalive:
     name: Keep It Goin'
